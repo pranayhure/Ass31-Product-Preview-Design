@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#main-product {
+    width: 300px;
+    height: 500px;
+    object-fit: cover;
+    border: 1px soild rgb(19, 19, 19);
+    border-radius: 20px;
+    margin: 20px auto;
+    display: block;
+    box-shadow: 0px 0px 10px 0px black;
+}
+
+body {
+    background-color: #FFFBF5;
+}
+
+.product-image-holder {
+    display: flex;
+    justify-content: center;
+}
+
+.prod-img {
+    height: 70px;
+    width: 70px;
+    object-fit: cover;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    border: 1px solid black;
+}
